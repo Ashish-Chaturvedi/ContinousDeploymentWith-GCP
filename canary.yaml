@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: microservice-cnary
-        image: gcr.io/learn-gcp-187312/microservice:v1.1
+        image: gcr.io/PROJECT_ID/microservice:v1.1
         resources:
           limits:
             memory: "500Mi"
