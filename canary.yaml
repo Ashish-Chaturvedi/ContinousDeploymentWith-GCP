@@ -1,0 +1,24 @@
+kind: Deployment
+apiVersion: extensions/v1beta1
+metadata:
+  name: microservice-canary
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: microservice
+      labels:
+        app: x404
+        env: canary
+    spec:
+      containers:
+      - name: microservice-cnary
+        image: gcr.io/learn-gcp-187312/microservice:v1.1
+        resources:
+          limits:
+            memory: "500Mi"
+            cpu: "100m"
+        imagePullPolicy: Always
+        ports:
+        - name: microservice
+          containerPort: 3005
