@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: microservice-svc
+spec:
+  type: LoadBalancer
+  ports:
+  - name: http
+    port: 3005
+    targetPort: 3005
+    protocol: TCP
+  selector:
+    app: x404
