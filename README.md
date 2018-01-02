@@ -1,5 +1,6 @@
 # Continous Deployment for Microservice - Reference G.C.P
 
+Its an intended use for learning. And,
 These files contains code snippets from Google Cloud Platform - Continous Deployment Documentation.
 Custom node.js application has been used for this deployment.
 
