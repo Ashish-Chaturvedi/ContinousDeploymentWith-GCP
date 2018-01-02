@@ -1,4 +1,4 @@
-# ContinousDeploymentWith-GCP
+# Continous Deployment for Microservice - Reference G.C.P
 
 These files contains code snippets from Google Cloud Platform - Continous Deployment Documentation.
 Custom node.js application has been used for this deployment.
